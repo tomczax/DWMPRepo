@@ -1,0 +1,614 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5e23b6e9-b4bd-4064-8929-033fc379b637" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Track</ID>
+  <Name>Dim Track</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="14" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3850" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="81" x="13309" y="18653" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimArtist" left="5595" top="290" logicalid="7" controlid="1" masterid="0" hint1="0" hint2="0" width="3942" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000660f000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="ChinookDW_DimArtist" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimTrack" left="20" top="-2155" logicalid="8" controlid="2" masterid="0" hint1="0" hint2="0" width="3175" height="7155" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000670c0000f31b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="ChinookDW_DimTrack" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimGenre" left="107" top="7400" logicalid="9" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="ChinookDW_DimGenre" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2895" top="2100" logicalid="10" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__DimTrack__Artist__3FF13F11]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="20" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5595" y="2499" />
+              <point x="4395" y="2499" />
+              <point x="4395" y="2522" />
+              <point x="3195" y="2522" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1208" top="4700" logicalid="11" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__DimTrack__GenreI__40E5634A]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1607" y="7400" />
+              <point x="1607" y="5000" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1193" top="6100" logicalid="12" controlid="6" masterid="0" hint1="0" hint2="0" width="2550" height="2512" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimGenre-DimGenre]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="3" sourceattachpoint="12" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="107" y="8212" />
+              <point x="-893" y="8212" />
+              <point x="-893" y="6400" />
+              <point x="1057" y="6400" />
+              <point x="1057" y="7400" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3850</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5000</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2155</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>81</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="164">
+            <Shape Id="Track ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Track ID" />
+                <Attribute Id="Genre ID" />
+                <Attribute Id="Media Type" />
+                <Attribute Id="Range Seconds" />
+                <Attribute Id="Seconds" />
+                <Attribute Id="Sound Quality" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Playlist" Expanded="false">
+              <Attributes>
+                <Attribute Id="Playlist" />
+              </Attributes>
+              <Position x="230" y="20" />
+            </Shape>
+            <Shape Id="Album" Expanded="false">
+              <Attributes>
+                <Attribute Id="Album" />
+              </Attributes>
+              <Position x="230" y="68" />
+            </Shape>
+            <Shape Id="Artist ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Artist ID" />
+                <Attribute Id="Range All Points" />
+                <Attribute Id="Range Average Rating" />
+                <Attribute Id="Range Votes" />
+              </Attributes>
+              <Position x="230" y="116" />
+            </Shape>
+            <Shape Id="Dim Artist - Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dim Artist - Name" />
+              </Attributes>
+              <Position x="440" y="116" />
+            </Shape>
+            <Shape Id="Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Name" />
+              </Attributes>
+              <Position x="230" y="164" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="984258f3-3c3b-438c-8719-2442f81c17b7">
+    <DataSourceViewID>Chinook</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="c61a94d1-bc0f-44ca-86b6-507363ad5088">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="70968509-f8dc-454e-a5ea-5b2dcca93315">
+      <ID>Track ID</ID>
+      <Name>Track ID</Name>
+      <Type>ID</Type>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bba8b307-35c1-4646-9b0b-780c9c99cb44">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e2389fd9-6524-418a-bb26-188f1386f8dd">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>TrackID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="cb0ec2ac-7ad0-42d9-b07b-939343362261">
+          <AttributeID>Media Type</AttributeID>
+          <Name>Media Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1c90673a-e79f-461b-9109-0ecca765b4ef">
+          <AttributeID>Seconds</AttributeID>
+          <Name>Seconds</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a5a4d829-7737-496f-86ba-37582084be7b">
+          <AttributeID>Range Seconds</AttributeID>
+          <Name>Range Seconds</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6bb545f-2c50-4526-a311-3c2f21a01efa">
+          <AttributeID>Sound Quality</AttributeID>
+          <Name>Sound Quality</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="36b02d9b-9dcb-49bd-b8bf-9c02fb59138a">
+          <AttributeID>Genre ID</AttributeID>
+          <Name>Genre ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6e07e04e-19c1-40c7-86e2-f6c0687dc274">
+          <AttributeID>Name</AttributeID>
+          <Name>Track</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="11b66dff-ef87-453a-bdab-53119dc42752">
+          <AttributeID>Artist ID</AttributeID>
+          <Name>Artist ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="172a8a13-3ecc-4888-ba72-0b521f00afc8">
+          <AttributeID>Album</AttributeID>
+          <Name>Album</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0f7c7d39-66ec-4da3-93c0-b03ba8bb5073">
+          <AttributeID>Playlist</AttributeID>
+          <Name>Playlist</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1fcf9a10-b954-4b26-a884-c95add23780e">
+          <AttributeID>Sound Quality Range</AttributeID>
+          <Name>Sound Quality Range</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6206cb98-c467-45fb-bb13-80c3c094591c">
+      <ID>Name</ID>
+      <Name>Track</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="85c73472-1353-4c24-ad11-ce5d1fe0ae77">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d888816-41c3-43d6-9aff-1a9dff1a455c">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="506a2e03-9781-4350-994d-7ec430a9ac51">
+      <ID>Media Type</ID>
+      <Name>Media Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c2a6dc72-76d9-4801-8c1d-b636ad229bdc">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6f605645-781c-498b-bd5f-10ab6d793acf">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>MediaType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a067dbb0-b49a-4185-b895-4f92d1774312">
+      <ID>Seconds</ID>
+      <Name>Seconds</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8ef48b64-a284-44f5-9e05-d76022bef16c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e0bd1561-228a-4182-88ad-53f88a5a8205">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>Seconds</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1daae61d-d1e8-438c-aed6-9468db9794cf">
+      <ID>Playlist</ID>
+      <Name>Playlist</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="acb0b98d-225a-4f5a-a6f9-ed29dd404f40">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="db923902-febd-430e-a982-d25fc5bdb951">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>Playlist</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="69945a99-f46e-40cb-8a0e-a562b97a288b">
+      <ID>Album</ID>
+      <Name>Album</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="551f2893-226c-404d-89d5-3f3969c1f5f9">
+          <DataType>WChar</DataType>
+          <DataSize>170</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f1d9098e-7cfc-43df-b779-bc8a0fc6dcff">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>Album</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="153003a1-2756-4cda-a457-e4501cdb88b9">
+      <ID>Range Seconds</ID>
+      <Name>Range Seconds</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="17ae3c7c-d4a1-4913-add9-44cc71d2185b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a9df10f-bcfc-4a02-bac6-0060513ab3fe">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>RangeSeconds</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="10e24934-18a5-4061-90b9-3c1d2a1ff87c">
+      <ID>Sound Quality</ID>
+      <Name>Sound Quality</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e5627221-ade8-4d5b-a10d-b0e501ef5012">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58392e7b-b394-467e-9430-9d72cad101d4">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>SoundQuality</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d9d177b0-0e2f-4e2d-b54f-1964e707c543">
+      <ID>Artist ID</ID>
+      <Name>Artist ID</Name>
+      <Type>ID</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7fce9af2-e4e3-42b2-b6d5-38de9121d44a">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="99f167e1-42c8-42b2-aa10-8fa113b204db">
+            <TableID>ChinookDW_DimArtist</TableID>
+            <ColumnID>ArtistID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="aaab4a39-5586-4939-af63-9914c1fac581">
+          <AttributeID>Range All Points</AttributeID>
+          <Name>Range All Points</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="31641239-9634-4f3c-9f87-65bd551d0e30">
+          <AttributeID>Range Average Rating</AttributeID>
+          <Name>Range Average Rating</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="79546dbb-162c-406e-9c82-b5f9898cdc23">
+          <AttributeID>Range Votes</AttributeID>
+          <Name>Range Votes</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3a0bb6cd-04b5-4919-8a6a-738916e3655e">
+          <AttributeID>Dim Artist - Name</AttributeID>
+          <Name>Artist</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f88f2fca-c041-44f0-9afb-a5213ab6cc3f">
+      <ID>Dim Artist - Name</ID>
+      <Name>Artist</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f4aeefdb-0649-4f52-bc2a-eb134f27ba94">
+          <DataType>WChar</DataType>
+          <DataSize>150</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb6fc7d7-aa04-4a2d-8105-04953397f23d">
+            <TableID>ChinookDW_DimArtist</TableID>
+            <ColumnID>Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9187f591-907e-415d-b157-759374dafad8">
+      <ID>Range All Points</ID>
+      <Name>Range All Points</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee8f6a7f-f1ac-4dc9-97a9-2d72be2f60bd">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f70847b8-a4b6-43cc-b4c9-bb7bfe5a8924">
+            <TableID>ChinookDW_DimArtist</TableID>
+            <ColumnID>RangeAllPoints</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="621e6b10-7aae-4387-aba2-43a8191d297d">
+      <ID>Range Average Rating</ID>
+      <Name>Range Average Rating</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5e12b88-1f97-4161-a1d3-478760c42516">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1f7157b6-0670-44cf-93a0-cf025179c4b4">
+            <TableID>ChinookDW_DimArtist</TableID>
+            <ColumnID>RangeAverageRating</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="642f6df8-79c0-4365-a67e-4f4d6ad3d1e4">
+      <ID>Range Votes</ID>
+      <Name>Range Votes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="33909b3b-7aa3-4c49-8298-7c9ba1962d51">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cdc8f6b0-c162-4fcb-b499-1bbef56d8d89">
+            <TableID>ChinookDW_DimArtist</TableID>
+            <ColumnID>RangeVotes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6460d3d7-6207-4312-bdf8-d3e9253eb79c">
+      <ID>Genre ID</ID>
+      <Name>Genre ID</Name>
+      <Type>ID</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a2ef25cb-e9f4-4dcf-a414-d2680b5a316d">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d9c4402-aba3-4492-8347-7bd83b3febe4">
+            <TableID>ChinookDW_DimGenre</TableID>
+            <ColumnID>GenreID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="08afc957-86b5-4264-b163-f07cefa22f9a">
+      <ID>Sound Quality Range</ID>
+      <Name>Sound Quality Range</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f09946d-e2f0-44cd-a207-019982130846">
+          <DataType>WChar</DataType>
+          <DataSize>9</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="456d7098-ee27-47e7-810b-604e009fff00">
+            <TableID>ChinookDW_DimTrack</TableID>
+            <ColumnID>Sound_x0020_Quality_x0020_Range</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="149b4ac2-ac44-40e1-a8ab-d538e44b0595">
+      <ID>Hierarchy</ID>
+      <Name>Playlist Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="f6f5cd33-58a0-4aad-9d90-17b179f3d176">
+          <ID>Playlist</ID>
+          <Name>Playlist</Name>
+          <SourceAttributeID>Playlist</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fc4ad457-0e32-4bd5-81b3-d2efa2daa2bc">
+          <ID>Artist</ID>
+          <Name>Artist</Name>
+          <SourceAttributeID>Dim Artist - Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="bf7bb16f-1d4d-463e-a26a-8d223f163f56">
+          <ID>Album</ID>
+          <Name>Album</Name>
+          <SourceAttributeID>Album</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6d6784c9-a4f3-4859-ba1f-89e10f624039">
+          <ID>Track</ID>
+          <Name>Track</Name>
+          <SourceAttributeID>Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="bb30034d-78d8-4d2b-926f-1e9469c5912f">
+      <ID>Hierarchy 1</ID>
+      <Name>Ranking Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="48d00e01-8e1a-4240-8851-8909dd47cb91">
+          <ID>Range All Points</ID>
+          <Name>Range All Points</Name>
+          <SourceAttributeID>Range All Points</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1270ee96-71de-4db2-9cf2-652fe52f869d">
+          <ID>Artist</ID>
+          <Name>Artist</Name>
+          <SourceAttributeID>Dim Artist - Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="72f52519-4ab9-4a15-88ba-54445439fcb6">
+          <ID>Album</ID>
+          <Name>Album</Name>
+          <SourceAttributeID>Album</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="730160c8-3194-4ffa-8ecc-4c2494e18b80">
+          <ID>Track</ID>
+          <Name>Track</Name>
+          <SourceAttributeID>Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="651c8705-3c3e-484d-9795-8c120278224c">
+      <ID>Hierarchy 2</ID>
+      <Name>Artist Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="f41bdcbc-db1b-40a3-83cc-4f511d07e929">
+          <ID>Artist</ID>
+          <Name>Artist</Name>
+          <SourceAttributeID>Dim Artist - Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0ac4b350-8358-4de6-91ee-789d0b4ea5f3">
+          <ID>Album</ID>
+          <Name>Album</Name>
+          <SourceAttributeID>Album</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="bfb382b5-3271-4b6c-9b01-5bde1a749350">
+          <ID>Track</ID>
+          <Name>Track</Name>
+          <SourceAttributeID>Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
